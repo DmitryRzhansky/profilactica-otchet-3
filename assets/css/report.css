@@ -213,8 +213,25 @@ body.lightbox-open{overflow:hidden}
   .hero h1{font-size:24px}
   .hero{padding:28px 0 28px}
   .report-section{padding:40px 0 32px}
-  .work-card{padding:16px}
+  main{padding:0 8px 64px}
+  .work-card{padding:14px 8px 8px}
   .work-card__head{flex-direction:column;align-items:flex-start}
+  .link-row{margin:0 6px 12px}
+  .shot-grid{gap:10px}
+  .shot-frame{
+    border-radius:4px;
+  }
+  .shot-frame img,
+  .shot-frame--tall img{
+    max-height:none;
+    width:100%;
+  }
+  .lightbox{padding:8px}
+  .lightbox__img{
+    max-width:100vw;
+    max-height:100vh;
+    border-radius:0;
+  }
 }
 
 @media print{
